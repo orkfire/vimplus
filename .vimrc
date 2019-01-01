@@ -173,7 +173,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
 " Plug 'junegunn/vim-slash'
-Plug 'junegunn/gv.vim'
+" Plug 'junegunn/gv.vim'
 " Plug 'kana/vim-textobj-user'
 " Plug 'kana/vim-textobj-indent'
 " Plug 'kana/vim-textobj-syntax'
@@ -182,7 +182,7 @@ Plug 'junegunn/gv.vim'
 " Plug 'Shougo/echodoc.vim'
 " Plug 'terryma/vim-smooth-scroll'
 Plug 'rhysd/clever-f.vim'
-Plug 'rhysd/github-complete.vim'
+" Plug 'rhysd/github-complete.vim'
 Plug 'vim-scripts/indentpython.vim'
 
 call plug#end()            
@@ -286,7 +286,7 @@ let g:ycm_warning_symbol = '✗'
 let g:ycm_seed_identifiers_with_syntax = 1 
 let g:ycm_complete_in_comments = 1 
 let g:ycm_complete_in_strings = 1 
-let g:ycm_server_python_interpreter = '/usr/bin/python'
+let g:ycm_server_python_interpreter = '/usr/bin/python3'
 let g:ycm_python_binary_path = 'python'
 nnoremap <leader>u :YcmCompleter GoToDeclaration<cr>
 " 已经使用cpp-mode插件提供的转到函数实现的功能
