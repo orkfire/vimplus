@@ -191,7 +191,8 @@ call plug#end()
 runtime macros/matchit.vim
 
 " 编辑vimrc文件
-nnoremap <leader>e :edit $MYVIMRC<cr>
+" nnoremap <leader>e :edit $MYVIMRC<cr>
+nnoremap <leader>e :e.<cr>
 
 " 查看vimplus的help文件
 nnoremap <leader>h :edit ~/.vimplus/help.md<cr>
