@@ -201,7 +201,8 @@ nnoremap <leader>h :edit ~/.vimplus/help.md<cr>
 nnoremap <leader>H :execute ":help " . expand("<cword>")<cr>
 
 " 重新加载vimrc文件
-nnoremap <leader>s :source $MYVIMRC<cr>
+" nnoremap <leader>s :source $MYVIMRC<cr>
+nnoremap <leader>s :wa<cr>
 
 " 安装、更新、删除插件
 nnoremap <leader><leader>i :PlugInstall<cr>
