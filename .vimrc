@@ -181,7 +181,7 @@ Plug 'ryanoasis/vim-devicons'
 " Plug 'kana/vim-textobj-function'
 " Plug 'sgur/vim-textobj-parameter'
 " Plug 'Shougo/echodoc.vim'
-" Plug 'terryma/vim-smooth-scroll'
+Plug 'terryma/vim-smooth-scroll'
 Plug 'rhysd/clever-f.vim'
 " Plug 'rhysd/github-complete.vim'
 Plug 'vim-scripts/indentpython.vim'
@@ -378,10 +378,10 @@ nnoremap <leader>l :Tab /\|<cr>
 nnoremap <leader>= :Tab /=<cr>
 
 " vim-smooth-scroll
-" noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 0, 2)<CR>
-" noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 0, 2)<CR>
-" noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 0, 4)<CR>
-" noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 0, 4)<CR>
+noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 0, 6)<CR>
+noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 0, 6)<CR>
+noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 0, 12)<CR>
+noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 0, 12)<CR>
 
 " gv
 " nnoremap <leader>g :GV<cr>
