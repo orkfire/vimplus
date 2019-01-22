@@ -139,6 +139,7 @@ set mouse=a
 nnoremap <leader>v <c-w>v<c-w>l
 nnoremap <leader>c <c-w>c
 nnoremap <f6> :!ctags -R<CR>
+nnoremap <leader>z /  zz  <CR>
 " nmap <m-j> 8j
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 插件列表
@@ -378,10 +379,10 @@ nnoremap <leader>l :Tab /\|<cr>
 nnoremap <leader>= :Tab /=<cr>
 
 " vim-smooth-scroll
-noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 0, 6)<CR>
-noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 0, 6)<CR>
-noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 0, 12)<CR>
-noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 0, 12)<CR>
+noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 0, 5)<CR>
+noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 0, 5)<CR>
+noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 0, 10)<CR>
+noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 0, 10)<CR>
 
 " gv
 " nnoremap <leader>g :GV<cr>
